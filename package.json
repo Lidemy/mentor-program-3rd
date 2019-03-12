@@ -1,0 +1,31 @@
+{
+  "name": "mentor-program-3rd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./homeworks/**/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pre-commit": ["lint"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aszx87410/program-3rd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aszx87410/program-3rd/issues"
+  },
+  "homepage": "https://github.com/aszx87410/program-3rd#readme",
+  "dependencies": {
+    "eslint": "^5.15.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "pre-commit": "^1.2.2"
+  }
+}
