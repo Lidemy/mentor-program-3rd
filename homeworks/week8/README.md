@@ -65,7 +65,7 @@ Base URL：https://lidemy-book-store.herokuapp.com/
 
 ### 作業提示
 
-1. [Twitch API](https://dev.twitch.tv/docs/v5/)裡面有一個 API 是可以拿到現在正在直播的某個遊戲底下的資料，API 的描述是「Gets a list of live streams.」，看到這行就代表你找對 API 了。
+1. [Twitch API](https://dev.twitch.tv/docs/v5/) 裡面有一個 API 是可以拿到現在正在直播的某個遊戲底下的資料，API 的描述是「Gets a list of live streams.」，看到這行就代表你找對 API 了。
 2. API 要帶的參數有一個 `game` 的欄位，請帶`League%20of%20Legends`
 3. 請顯示 20 個實況，不多不少，要剛好 20 個
 
