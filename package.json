@@ -12,7 +12,10 @@
     }
   },
   "lint-staged": {
-    "*.js": ["eslint", "git add"]
+    "*.js": [
+      "eslint",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
