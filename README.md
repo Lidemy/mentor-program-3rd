@@ -169,7 +169,7 @@ Mindset 建立：
 
 也會教大家寫簡單的 unit test，並且自己寫 test case 檢驗自己的函式。
 
-本週的作業有自動批改系統，請傳到 [Lidemy OJ](http://lidemy-oj.s3-website-ap-southeast-1.amazonaws.com/) 上，並且確認每一題都有答對之後再交作業，否則我會直接退件（hw5 除外，因為這題比較難，沒有通過依然可以先交作業）。
+本週的作業有自動批改系統，請傳到 [Lidemy OJ](https://lidemy-oj.netlify.com) 上，並且確認每一題都有答對之後再交作業，否則我會直接退件（hw5 除外，因為這題比較難，沒有通過依然可以先交作業）。
 
 [HW3 作業連結](/homeworks/week3)
 
@@ -242,7 +242,7 @@ Mindset 建立：
 
 NPSC 中文全名為[網際網路程式設計全國大賽](https://contest.cc.ntu.edu.tw/npsc2018/)，是台大每年都會辦給國中生跟高中生參加的比賽。
 
-裡面很多題目都很有趣，適合拿來給程式初學者練習，我特地找了一些比較簡單的題目，大家可以用來檢驗自己的程式基礎是否紮實：[Lidemy OJ](http://lidemy-oj.s3-website-ap-southeast-1.amazonaws.com/)。
+裡面很多題目都很有趣，適合拿來給程式初學者練習，我特地找了一些比較簡單的題目，大家可以用來檢驗自己的程式基礎是否紮實：[Lidemy OJ](https://lidemy-oj.netlify.com/contests)。
 
 [HW5 作業連結](/homeworks/week5)
 
