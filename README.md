@@ -271,6 +271,7 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 1. [FE101] 前端基礎：HTML 與 CSS：全部
 2. 程式導師實驗計畫第二期：Week3-2 - CSS
+3. [Chrome 網頁除錯功能大解密](https://www.udemy.com/chrome-devtools/)
 
 寫完作業才能看：
 
@@ -753,6 +754,8 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 1. [FE301] React 基礎：全部
 2. 程式導師實驗計畫第二期：Week12-1 React
 3. 程式導師實驗計畫第二期：Week12-2 React 續
+4. [官方教學](https://reactjs.org/tutorial/tutorial.html)
+5. [React.js 小書](http://huziketang.mangojuice.top/books/react/)
 
 不確定有沒有幫助（因為內容跟第二期重疊的部分很多）：
 
