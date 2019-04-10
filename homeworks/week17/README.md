@@ -2,7 +2,7 @@
 
 ## hw1：Event Loop
 
-在 JavaScript 裡面，一個很重要的概念就是 Event Loop，是 JavaScript 底層在執行程式碼時的運作方式。請你說明以下程式碼會輸出什麼，以及盡可能詳細的解釋原因。
+在 JavaScript 裡面，一個很重要的概念就是 Event Loop，是 JavaScript 底層在執行程式碼時的運作方式。請你說明以下程式碼會輸出什麼，以及盡可能詳細地解釋原因。
 
 ```
 console.log(1)
@@ -20,7 +20,7 @@ console.log(5)
 
 ## hw2：Event Loop + Scope
 
-請說明以下程式碼會輸出什麼，以及盡可能詳細的解釋原因。
+請說明以下程式碼會輸出什麼，以及盡可能詳細地解釋原因。
 
 ```
 for(var i=0; i<5; i++) {
@@ -35,7 +35,7 @@ for(var i=0; i<5; i++) {
 
 ## hw3：Hoisting
 
-請說明以下程式碼會輸出什麼，以及盡可能詳細的解釋原因。
+請說明以下程式碼會輸出什麼，以及盡可能詳細地解釋原因。
 
 ```
 var a = 1
@@ -64,7 +64,7 @@ console.log(b)
 
 ## hw4：What is this?
 
-請說明以下程式碼會輸出什麼，以及盡可能詳細的解釋原因。
+請說明以下程式碼會輸出什麼，以及盡可能詳細地解釋原因。
 
 ```
 const obj = {
@@ -97,7 +97,7 @@ hello() // ??
 
 ## 挑戰題
 
-看完[Dmitry Soshnikov 這個部落格](http://dmitrysoshnikov.com/)的兩個系列：ECMA-262-3 in detail 與 ECMA-262-5 in detail。
+看完 [Dmitry Soshnikov 這個部落格](http://dmitrysoshnikov.com/)的兩個系列：ECMA-262-3 in detail 與 ECMA-262-5 in detail。
 
 ## 進階挑戰題
 
