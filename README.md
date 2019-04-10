@@ -116,6 +116,7 @@ Mindset 建立：
 1. [CMD101] Command Line 超新手入門：全部
 2. [GIT101] Git 超新手入門：全部
 3. [CS101] 初心者的計概與 coding 火球術：1-1 ~ 2-4、4-1、4-2、11
+4. 程式導師實驗計畫第二期：Lesson 1-1（可以快轉忽略與第二期本身相關的部分）
 
 [HW1 作業連結](/homeworks/week1)
 
@@ -178,6 +179,15 @@ Mindset 建立：
 1. [JS101] 用 JavaScript 一步步打造程式基礎：全部
 2. [JS102] 升級你的 JavaScript 技能：ES6 + npm + Jest：全部
 
+上一期相關部分：
+
+1. 程式導師實驗計畫第二期：Week2 加強 JavaScript
+2. 程式導師實驗計畫第二期：Week2 - ES6
+
+寫完作業以後才能看：
+
+1. 程式導師實驗計畫第二期：Week3 - 第二週作業檢討
+
 #### 自我檢測
 
 - [ ] 你理解常用內建函式如何使用
@@ -199,7 +209,8 @@ Mindset 建立：
 
 指定教材：
 
-1. [NET101] 網路基礎概論（搭配 JS 實作練習）
+1. [NET101] 網路基礎概論（搭配 JS 實作練習）：全部
+2. [CS101] 初心者的計概與 coding 火球術：4-1 ~ 4-4
 
 #### 自我檢測
 
@@ -259,6 +270,11 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 指定教材：
 
 1. [FE101] 前端基礎：HTML 與 CSS：全部
+2. 程式導師實驗計畫第二期：Week3-2 - CSS
+
+寫完作業才能看：
+
+1. 程式導師實驗計畫第二期：Week4-1 - 上週作業檢討
 
 [HW6 作業連結](/homeworks/week6)
 
@@ -283,8 +299,12 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 指定教材：
 
+1. [FE102] 前端必備：JavaScript：到 ajax 之前
+2. 程式導師實驗計畫第二期：Week4-2 - JavaScript
+
+指定閱讀：
+
 1. [DOM 的事件傳遞機制：捕獲與冒泡](https://blog.techbridge.cc/2017/07/15/javascript-event-propagation/)
-2. [FE102] 前端必備：JavaScript：到 ajax 之前
 
 [HW7 作業連結](/homeworks/week7)
 
@@ -305,11 +325,14 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 而前端當然也能串接 API，理解前後端如何串接是很重要的一部分，因此這週會花滿多心力再來講 API 串接，讓大家複習一下 API 的概念，並且教大家什麼是 Ajax。
 
-除了古老的 XMLHttpRequest 以外，我們也會提到利用 Fetch 來串接 API。
-
 指定教材：
 
 1. [FE102] 前端必備：JavaScript：ajax 以後
+
+寫完作業才能看：
+
+1. [從假資料到真資料：Ajax 與 API 串接](https://www.youtube.com/watch?v=PNGRPYFcAms)
+
 
 相關學習資源：
 
@@ -338,7 +361,30 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 指定教材：
 
-1. [BE101] 用 PHP 與 MySQL 學習後端基礎：全部
+1. 程式導師實驗計畫：Lesson 5-1 之後端基礎  
+2. 程式導師實驗計畫：Lesson 5-2 之資料庫  
+3. [CS101] 初心者的計概與 coding 火球術：5-3
+4. [BE101] 用 PHP 與 MySQL 學習後端基礎：全部
+5. 程式導師實驗計畫第二期：Week5-2：物件導向程式設計
+6. Week5 物件導向（續）：繼承與 static
+
+上一期相關內容：
+
+1. 程式導師實驗計畫第二期：Week5 - 後端基礎
+
+物件導向相關閱讀：
+
+1. http://expect7.pixnet.net/blog/post/38682120
+2. https://noob.tw/java-oop/
+3. https://blog.miniasp.com/post/2009/08/27/OOP-Basis-What-is-class-and-object.aspx
+4. http://blog.turn.tw/?p=3093
+5. https://www.ptt.cc/bbs/OOAD/M.1256403807.A.8AE.html
+
+如果作業寫不出來，可參考：
+
+1. 程式導師實驗計畫第二期：Week10-1 PHP 簡易會員系統 + 留言板
+2. 程式導師實驗計畫：Lesson 6-1 之 live coding
+3. 程式導師實驗計畫：Lesson 5-3 之作業檢討 
 
 相關學習資源：
 
@@ -388,6 +434,7 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 指定教材：
 
 1. [BE101] 用 PHP 與 MySQL 學習後端基礎：全部
+2. [CS101] 初心者的計概與 coding 火球術：4-3、5-4
 
 [HW11 作業連結](/homeworks/week11)
 
@@ -410,7 +457,16 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 指定教材：
 
 1. [BE101] 用 PHP 與 MySQL 學習後端基礎：全部
-2. 第二期影片（待補）
+2. 程式導師實驗計畫：Lesson 6-2 之 Web Security 
+3. 程式導師實驗計畫：Lesson 6-3 之 HW6 作業檢討 
+4. 程式導師實驗計畫第二期：Week6-1：後端基礎（中）
+5. 程式導師實驗計畫第二期：Week6-2：資訊安全
+6. [CS101] 初心者的計概與 coding 火球術：5-5
+
+若是作業寫不出來：
+
+1. 程式導師實驗計畫第二期：Week10-2 會員系統安全加強 + 兩層留言板 
+2. 程式導師實驗計畫第二期：Week11-1 資訊安全加強 
 
 延伸閱讀：
 
@@ -435,7 +491,14 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 指定教材：
 
-1. 第二期影片（待補）
+1. 程式導師實驗計畫第二期：Week7-1 前端基礎（下）
+2. 程式導師實驗計畫第二期：Week7-2 Fetch & Promise
+3. 程式導師實驗計畫：Lesson 7-1 之 jQuery 與 Bootstrap
+4. 程式導師實驗計畫：Lesson 7-2 之 jQuery Bootstrap 實戰應用
+
+作業寫不出來可參考：
+
+1. 程式導師實驗計畫第二期：Week11-2 改寫 Ajax 
 
 [HW13 作業連結](/homeworks/week13)
 
@@ -463,7 +526,17 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 指定教材：
 
-1. 第二期影片（待補）
+1. 程式導師實驗計畫：Lesson 8-2 之資料庫  
+2. 程式導師實驗計畫第二期：Week8-1 後端基礎（下）
+3. 程式導師實驗計畫：Lesson 8-1 之後端基礎與網路相關知識  
+4. 程式導師實驗計畫：Lesson 8-3 之 hw8 作業檢討  
+5. 程式導師實驗計畫第二期：Week9-1 基礎到中階 
+
+推薦閱讀：
+
+1. [部署 AWS EC2 遠端主機 + Ubuntu LAMP 環境 + phpmyadmin](https://github.com/Lidemy/mentor-program-2nd-yuchun33/issues/15)
+2. [一小時完成 VPS (Virtual Private Server) 部署](https://github.com/Lidemy/mentor-program-2nd-futianshen/issues/21)
+3. [如何遠端連接虛擬主機上的 mySQL 資料庫 ？](https://github.com/Lidemy/mentor-program-2nd-futianshen/issues/33)
 
 相關學習資源：
 
@@ -531,6 +604,14 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 快取對工程師來說是一定要理解的概念，前端有前端的快取，後端也有後端的。這週主要會著重在前端快取的介紹上。
 
+指定教材：
+
+1. 程式導師實驗計畫：Lesson 9-1 之 CSS 預處理器
+2. 程式導師實驗計畫：Lesson 9-2 之資料結構、Cache 與 Event Loop
+3. 程式導師實驗計畫：Lesson 9-3 之作業檢討
+4. 程式導師實驗計畫第二期：Week9-1 基礎到中階
+5. 程式導師實驗計畫第二期：Week9-2 JavaScript 執行原理
+
 [HW16 作業連結](/homeworks/week16)
 
 #### 自我檢測
@@ -550,6 +631,12 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 第一個重點是瀏覽器在運行 JavaScript 時的 Event Loop 機制。
 
 第二個重點就是 JavaScript 的一些重要基礎，包含：scope、hoisting、closure、prototype、this 等等。
+
+指定教材：
+
+1. 程式導師實驗計畫第二期：Week9-2 JavaScript 執行原理
+2. [JS201] 進階 JavaScript：那些你一直搞不懂的地方
+3. What the heck is the event loop anyway? | Philip Roberts | JSConf EU
 
 [HW17 作業連結](/homeworks/week17)
 
@@ -574,6 +661,15 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 最後也會用跟以往不太一樣的模式，做出一個簡單的 todo list。
 
+指定教材：
+
+1. 程式導師實驗計畫：Lesson 10-1 之 gulp 與 webpack
+（注意，影片裡面教的是舊版的 Gulp 與 Webpack，學概念就好，實作請參考其他教學或是官方文件）
+
+寫完作業可參考：
+
+1. 程式導師實驗計畫：Lesson 10-2 之 HW10 作業檢討
+
 [HW18 作業連結](/homeworks/week18)
 
 #### 自我檢測
@@ -596,6 +692,8 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 我們首先要加強的第一個東西是複習前面教的網路基礎，你必須對前後端溝通的每一個流程都很確定，在之後的單元中才不會迷失自我。
 
 接著要來講的是 SPA，還記得之前貼給你們看過的那兩篇文章嗎？[零基礎的小明要如何成為前端工程師？](https://medium.com/hulis-blog/frontend-engineer-guide-297821512f4e)、[跟著小明一起搞懂技術名詞：MVC、SPA 與 SSR](https://medium.com/@hulitw/introduction-mvc-spa-and-ssr-545c941669e9)，這週的重點會放在這兩篇文章上面，讓大家清楚知道背後的概念為何。
+
+指定教材：無
 
 [HW19 作業連結](/homeworks/week19)
 
@@ -650,6 +748,17 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 延伸閱讀：[React 性能優化大挑戰：一次理解 Immutable data 跟 shouldComponentUpdate](https://blog.techbridge.cc/2018/01/05/react-render-optimization/)
 
+指定教材：
+
+1. [FE301] React 基礎：全部
+2. 程式導師實驗計畫第二期：Week12-1 React
+3. 程式導師實驗計畫第二期：Week12-2 React 續
+
+不確定有沒有幫助（因為內容跟第二期重疊的部分很多）：
+
+1. 程式導師實驗計畫：Lesson 12-1 之 React
+2. 程式導師實驗計畫：Lesson 12-2 之 React 下
+
 [HW21 作業連結](/homeworks/week21/fe)
 
 #### 自我檢測
@@ -678,6 +787,12 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 在上一週結束之後，大家應該對 React 有了一些基本的感覺，這一週我們要繼續培養對 React 的感覺，讓大家對 React 越來越熟練。
 
 除此之外也會教大家用 React Router 這一套 library，來實做前端的路由。
+
+指定教材：
+
+1. [FE301] React 基礎：全部
+2. 程式導師實驗計畫第二期：Week13-1 還是 React
+3. 程式導師實驗計畫第二期：Week13-2 依舊 React
 
 [HW22 作業連結](/homeworks/week22/fe)
 
@@ -711,6 +826,11 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 接續之前的課程，這一週會讓你的 Web App 變得更加完整，會導入一個新的東西：Redux，說明我們為什麼需要它。
 
+指定教材：
+
+1. 程式導師實驗計畫第二期：Week14-1 Redux
+2. 程式導師實驗計畫：Lesson 13-1 之 React + Redux
+
 [HW23 作業連結](/homeworks/week23/fe)
 
 #### 自我檢測
@@ -737,6 +857,14 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 ### 前端框架（四）
 
 最後一週裡面我們將用 redux 來解決非同步操作的問題，讓大家知道如何利用它與 redux-promise 來解決非同步的一些問題。
+
+指定教材：
+
+1. 第二期 Redux part 1
+2. 第二期 Redux part 2
+3. 第二期 React + Redux 補充：super
+4. 第二期 React + Redux 補充：this
+5. 程式導師實驗計畫：Lesson 13-2 之 React + Redux 下
 
 [HW24 作業連結](/homeworks/week24/fe)
 
