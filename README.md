@@ -636,7 +636,7 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 1. 程式導師實驗計畫第二期：Week9-2 JavaScript 執行原理
 2. [JS201] 進階 JavaScript：那些你一直搞不懂的地方
-3. What the heck is the event loop anyway? | Philip Roberts | JSConf EU
+3. [What the heck is the event loop anyway? | Philip Roberts | JSConf EU](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
 [HW17 作業連結](/homeworks/week17)
 
