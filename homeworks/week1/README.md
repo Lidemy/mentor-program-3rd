@@ -73,7 +73,7 @@
 ``` bash
 #!/bin/bash
 
-touch "$0.js";
+touch "$1.js";
 echo "檔案建立完成";
 ```
 
