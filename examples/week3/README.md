@@ -56,7 +56,6 @@ function alphaSwap(str) {
 function isPrime(n) {
   // 一行的時候可以偷省略括號，雖然我不知道 eslint 會不會給過就是了XD
   if (n === 1) return false;
-  if (n === 2) return true;
 
   // 找根號以內的數就好，這是數學小知識
   // 先把開根號的值存好，否則每一圈迴圈都會運算一次
