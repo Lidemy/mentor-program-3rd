@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .text {
+      font-size: 40px;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+    }
+    .hide {
+      display: none;
+    }
+  </style>
+  </head>
+  <body>
+    <div class="text">畫面變色時請點擊
+      <div><button class="hide">再玩一次</button></div>
+    </div>
+  </body>
+  <script>
+    let startTime = null
+    let isOver = false
+    let timer = null
+
+    function startGame() {
+      startTime = null
+      isOver = false
+      document.querySelector('body').style.background = "white"
+      timer = setTimeout(() => {
+        document.querySelector('body').style.background = "orange"
+        startTime = new Date()
+      }, Math.random() * 2000 + 1000) 
+    }
+    
+    startGame()
+
+    document.querySelector('button').addEventListener('click', function(e) {
+      document.querySelector('button').classList.toggle('hide')
+      startGame()
+      e.stopPropagation()
+    })
+
+    document.addEventListener('click', function() {
+      if (isOver) return
+      if (!startTime) {
+        clearTimeout(timer)
+        alert('還沒變色喔，失敗！')
+      } else {
+        alert('你的成績：' + ((new Date() - startTime) / 1000).toFixed(2) + '秒')
+      }
+      isOver = true
+      document.querySelector('button').classList.toggle('hide')
+    })
+
+
+  </script>
+</html>
+
