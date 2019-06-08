@@ -422,7 +422,7 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 ### 闖關遊戲
 
-一共十關，看你能闖到第幾關。（連結待補）
+一共十關，看你能闖到第幾關：[r3:0 異世界網站挑戰](https://r30challenge.herokuapp.com/)（特別感謝 @minw 製作遊戲）。
 
 [HW10 作業連結](/homeworks/week10)
 
