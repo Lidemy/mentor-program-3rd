@@ -360,7 +360,7 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 這週的課程會講解 PHP 基本觀念、語法，並且教大家安裝設定 MySQL，寫出簡單的 CRUD 應用。
 
-指定教材：
+指定教材（學習順序請參考 Lidemy.com 上的說明）：
 
 1. 程式導師實驗計畫：Lesson 5-1 之後端基礎  
 2. 程式導師實驗計畫：Lesson 5-2 之資料庫  
@@ -525,6 +525,9 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 最後也會補齊跟資料庫的一些知識，像是 ACID、Transaction、View 以及 Stored procedure。
 
+這週也要特別感謝 [gandi](https://www.gandi.net/) 連續三期全額贊助了網域的費用 <(_ _)>。
+
+
 指定教材：
 
 1. 程式導師實驗計畫：Lesson 8-2 之資料庫  
@@ -582,10 +585,12 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 這次提供兩個跟資訊安全相關的練習網站，都跟我們以前複習週的模式差不多，可以一直闖關：
 
-1. http://xss-quiz.int21h.jp/
+1. http://xss-quiz.int21h.jp/ （這個可能會被 Chrome 擋下來...可以用 Firefox 或是其他網站玩）
 2. http://www.hackertest.net/
 
 祝大家玩得開心！
+
+這一週的作業除了心得以外，也提供了一個跟以往不太一樣的測驗：[網站前後端開發基礎測試](https://forms.gle/qvrQc9pWWNGaoGpn8)，一共十題簡答題，Google 表單在送出之後可以看見參考解答，能夠自己對答案。
 
 [HW15 作業連結](/homeworks/week15)
 
