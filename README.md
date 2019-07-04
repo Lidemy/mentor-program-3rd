@@ -211,6 +211,7 @@ Mindset 建立：
 
 1. [NET101] 網路基礎概論（搭配 JS 實作練習）：全部
 2. [CS101] 初心者的計概與 coding 火球術：4-1 ~ 4-4
+3. [從拉麵店的販賣機理解什麼是 API](https://medium.com/@hulitw/ramen-and-api-6238437dc544)
 
 #### 自我檢測
 
