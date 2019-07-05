@@ -1,10 +1,140 @@
-## è«‹ä»¥è‡ªå·±çš„è©±è§£é‡‹ API æ˜¯ä»€éº¼
+½Ğ¥H¦Û¤vªº¸Ü¸ÑÄÀ API ¬O¤°»ò¡H
+
+§Ú¥h»È¦æ ATM »â¤@µ§¿ú (¸ê®Æ)¡A³z¹L ATM ( API ) ¡A
+
+¥Î´£´Ú¥d (°Ñ¼Æ) ´¡¤J ATM ¡A«ö«ö«ö¤§«á¡A§Ú»â¨ì¤F¤@µ§¿ú (§R°£¸ê®Æ)¡C
+
+µ²ªG¤Ó®`©È¦³¨S¦³¤H¦b¬İ§Úªº¿ú¡A´N«ö¿ù¤F¡Aµ²ªGµo²{§Ú«öªº¼Æ¦r¤Ó¦h¤F¡A§Ú®Ú¥»¨S»ò¦h¿ú°Ú~
+
+¥u¦n­×§ï¤@¤U¼Æ¦rª÷ÃB (­×§ï¸ê®Æ)¡A»â¥X¨Ó¤@¬İ¡A«x¡H¦n¹³¤£¹ï°Ú¡Aµ²ªG¤S»â¤Ó¦h¤F¡A
+
+¥u¦n¤S¦s¤F¤@¨Ç¿ú¶i¥h (·s¼W¸ê®Æ)¡A³Ì«á¶¶«K¬İ¤@¤U¦s´Ú¾lÃB¬d¸ß¬İ¹ï¤£¹ï (¬d¸ß¸ê®Æ)¡A¥H§KºôÁÊ¨S¿ú¤F~
 
 
 
-## è«‹æ‰¾å‡ºä¸‰å€‹èª²ç¨‹æ²’æ•™çš„ HTTP status code ä¸¦ç°¡å–®ä»‹ç´¹
+ATM ªº¾÷¾¹´N¬O API¡F¿ú¡A´N¬O§Ú­nªº¸ê®Æ¡F»È¦æ¡A´N¬O§Úªº¹ï¶H
+
+§Ú³z¹L ATM ªº¾÷¾¹ (API) ¨Ó©M»È¦æ¦s¿ú (·s¼W) ¡B»â¿ú (§R°£)¡B¬d¸ß³Ñ¾lª÷ÃB (¬d¸ß)
+
+´£´Ú¥d (°Ñ¼Æ)´N¬O§Ú¥Îªº¤£¦P°Ñ¼Æ¡A©ñ¤J¤£¦Pªº´£´Ú¥d¡A´N¯à¬d¸ß¤£¦P»È¦æªº¸ê®Æ
 
 
 
-## å‡è¨­ä½ ç¾åœ¨æ˜¯å€‹é¤å»³å¹³å°ï¼Œéœ€è¦æä¾› API çµ¦åˆ¥äººä¸²æ¥ä¸¦æä¾›åŸºæœ¬çš„ CRUD åŠŸèƒ½ï¼ŒåŒ…æ‹¬ï¼šå›å‚³æ‰€æœ‰é¤å»³è³‡æ–™ã€å›å‚³å–®ä¸€é¤å»³è³‡æ–™ã€åˆªé™¤é¤å»³ã€æ–°å¢é¤å»³ã€æ›´æ”¹é¤å»³ï¼Œä½ çš„ API æœƒé•·ä»€éº¼æ¨£å­ï¼Ÿè«‹æä¾›ä¸€ä»½ API æ–‡ä»¶ã€‚
+
+½Ğ§ä¥X¤T­Ó½Òµ{¨S±Ğªº HTTP status code ¨ÃÂ²³æ¤¶²Ğ
+
+201 Created
+½Ğ¨D¦¨¥\¥B·sªº¸ê·½¦¨¥\³Q³Ğ«Ø¡A³q±`¥Î©ó POST ©Î¤@¨Ç PUT ½Ğ¨D«áªº¦^À³¡C
+
+202 Accepted
+¦¹½Ğ¨D¤w¸g³Q±µ¨ü¦ı©|¥¼³B²z¡C¦¹ª¬ºA¬°«D©Ó¿Õ©Ê¡A¥Nªí HTTP µLªk¦b¤§«á¶Ç°e¤@­Ó«D¦P¨Bªº¦^À³§iª¾½Ğ¨Dªº³B²zµ²ªG¡C
+³Ìªì¥Øªº¬°¥~³¡µ{§Ç©Î¨ä¥L¦øªA¾¹³B²z½Ğ¨Dªº±¡ªp¡A©Î¥Î©ó§å¦¸³B²z¤¤¡C
+
+
+403 Forbidden
+¥Î¤áºİ¨ÃµL³X°İÅv­­¡A¨Ò¦p¥¼³Q±ÂÅv¡A©Ò¥H¦øªA¾¹©Úµ´µ¹¤©À³¦³ªº¦^À³¡C¤£¦P©ó 401¡A¦øªAºİª¾¹D¥Î¤áºİªº¨­¥÷¡C
+
+
+°²³]§A²{¦b¬O­ÓÀ\ÆU¥­¥x¡A»İ­n´£¨Ñ API µ¹§O¤H¦ê±µ¨Ã´£¨Ñ°ò¥»ªº CRUD ¥\¯à¡A
+¥]¬A¡G¦^
+©Ò¦³À\ÆU¸ê®Æ¡B¦^¶Ç³æ¤@À\ÆU¸ê®Æ¡B§R°£À\ÆU¡B·s¼WÀ\ÆU¡B§ó§ïÀ\ÆU¡A
+§Aªº API ·|ªø¤°»ò¼Ë¤l¡H½Ğ´£¨Ñ¤@¥÷ API ¤å¥ó¡C
+
+Base URL: https://www.jing-restaurants.com
+
+
+| »¡©ú              | Method   |path              | °Ñ¼Æ                    | ½d¨Ò                   | 
+| ------------------|----------|------------------|-------------------------|------------------------|
+| Àò¨ú©Ò¦³À\ÆU¸ê®Æ  | GET      | /restaurants     | _limit:­­¨î¦^¶Ç¸ê®Æ¼Æ¶q | /restaurants?_limit=5  |
+| Àò¨ú³æ¤@À\ÆU¸ê®Æ  | GET      | /restaurants/:id | µL                      | /restaurants/10        |
+| ·s¼W®ÑÄy          | POST     | /restaurants     | name: À\ÆU¦WºÙ          | µL                     |
+| §R°£®ÑÄy          | DELETE   | /restaurants/:id | µL                      | µL                     |
+| §ó§ï®ÑÄy¸ê°T      | PATCH    | /restaurants/:id | name: À\ÆU¦WºÙ          | µL                     |
+
+
+Àò¨ú©Ò¦³À\ÆU¸ê®Æ
+GET https://www.jing-restaurants.com/restaurant
+
+
+¨ú±o«e¤»®aÀ\ÆU¸ê®Æ
+GET https://www.jing-restaurants.com/restaurant?_limit=6
+
+Àò¨ú³æ¤@À\ÆU¸ê®Æ ( Àò¨ú²Ä¤G®aÀ\ÆU )
+GET https://www.jing-restaurants.com/restaurant/2
+
+
+·s¼WÀ\ÆUÀ\ÆU
+POST https://www.jing-restaurants.com/restaurant/
+
+
+§R°£À\ÆU ( §R°£²Ä¤C®a )
+DELETE https://www.jing-restaurants.com/restaurant/7
+
+
+ÅÜ§óÀ\ÆU¸ê°T ( §R°£²Ä¤C®a )
+PATCH https://www.jing-restaurants.com/restaurant/7
+
+
+[
+  {
+    "id": 1,
+    "name": "¶h´Y¤j°ó°s§a",
+    "arrd":"Taipei",
+    "tel":"0911123456"	
+  },
+  {
+    "id": 2,
+    "name": "Asia 49¨È¬w®Æ²z¤Î°s´Y",
+    "arrd":"Kaohsiung",
+    "tel":"0911987654"	
+  },
+  {
+    "id": 3,
+    "name": "­ì¿N",
+    "arrd":"Yunlin",
+    "tel":"0911987654"	
+  },
+  {
+    "id": 4,
+    "name": "³o¤@Áç¬Ó«Ç¯µÂÃÁçª«",
+    "arrd":"Kaohsiung",
+    "tel":"0911987654"	
+  },
+  {
+    "id": 5,
+    "name": "ÃÀ©_",
+    "arrd":" Taoyuan",
+    "tel":"0911987654"	
+  },
+  {
+    "id": 6,
+    "name": "¹©®õÂ×",
+    "arrd":"Tainan",
+    "tel":"0911987654"	
+  },
+  {
+    "id": 7,
+    "name": "¤å©¥¤å ©¥¿N¸¾»¶ÀpÀmÁç",
+    "arrd":"Kaohsiung",
+    "tel":"0911987654"	
+  },
+  {
+    "id": 8,
+    "name": "Prime One¤û±ÆÀ] ",
+    "arrd":"Panchiao",
+    "tel":"0911987654"	
+  },
+  {
+    "id": 9,
+    "name": "TGI Fridays ¬P´Á¤­À\ÆU",
+    "arrd":"Kaohsiung",
+    "tel":"0911987654"	
+  },
+  {
+    "id": 10,
+    "name": "«C¶®¤¤À\ÆU",
+    "arrd":"Taitung",
+    "tel":"0911987654"	
+  }
+]
 
