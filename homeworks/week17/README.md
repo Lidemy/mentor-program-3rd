@@ -4,7 +4,7 @@
 
 在 JavaScript 裡面，一個很重要的概念就是 Event Loop，是 JavaScript 底層在執行程式碼時的運作方式。請你說明以下程式碼會輸出什麼，以及盡可能詳細地解釋原因。
 
-```
+``` js
 console.log(1)
 setTimeout(() => {
   console.log(2)
@@ -22,7 +22,7 @@ console.log(5)
 
 請說明以下程式碼會輸出什麼，以及盡可能詳細地解釋原因。
 
-```
+``` js
 for(var i=0; i<5; i++) {
   console.log('i: ' + i)
   setTimeout(() => {
@@ -37,7 +37,7 @@ for(var i=0; i<5; i++) {
 
 請說明以下程式碼會輸出什麼，以及盡可能詳細地解釋原因。
 
-```
+``` js
 var a = 1
 function fn(){
   console.log(a)
@@ -66,7 +66,7 @@ console.log(b)
 
 請說明以下程式碼會輸出什麼，以及盡可能詳細地解釋原因。
 
-```
+``` js
 const obj = {
   value: 1,
   hello: function() {

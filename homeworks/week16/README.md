@@ -4,7 +4,7 @@
 
 自從學會 CSS 預處理器之後，寫 CSS 的複雜度一下子降低了很多，一方面是巢狀 CSS 可以很簡單的實作出來，另一方面是多了變數這個好用的東西。
 
-現在請你把以前寫的 CSS 都用你自己挑的 CSS preprocessor（LESS, SASS, Stylus）來改寫。
+現在請你把以前寫的 CSS 用你自己挑的 CSS preprocessor（LESS, SASS, Stylus）來改寫（要選哪一個作業都行，隨便選一個就好，只是想讓大家熟悉一下預處理器的用法） 。
 
 ## hw2：實作出 Stack 與 Queue
 
