@@ -701,7 +701,10 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 接著要來講的是 SPA，還記得之前貼給你們看過的那兩篇文章嗎？[零基礎的小明要如何成為前端工程師？](https://medium.com/hulis-blog/frontend-engineer-guide-297821512f4e)、[跟著小明一起搞懂技術名詞：MVC、SPA 與 SSR](https://medium.com/@hulitw/introduction-mvc-spa-and-ssr-545c941669e9)，這週的重點會放在這兩篇文章上面，讓大家清楚知道背後的概念為何。
 
-指定教材：無
+指定教材：
+
+1. 複習第四週網路概念：[CS75 (Summer 2012) Lecture 0 HTTP Harvard Web Development David Malan](https://www.youtube.com/watch?v=8KuO4r5CHjM)
+2. 複習第十四週系統架構：[CS75 (Summer 2012) Lecture 9 Scalability Harvard Web Development David Malan](https://www.youtube.com/watch?v=-W9F__D3oY4)
 
 [HW19 作業連結](/homeworks/week19)
 
