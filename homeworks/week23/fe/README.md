@@ -13,7 +13,7 @@
 
 API 格式：
 
-endpoint：http://45.55.26.18:3310  
+endpoint：https://qootest.com 
 使用說明：https://github.com/typicode/json-server
 
 ```

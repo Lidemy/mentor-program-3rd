@@ -12,7 +12,7 @@
 
 API 格式：
 
-endpoint：http://45.55.26.18:3310  
+endpoint：https://qootest.com  
 使用說明：https://github.com/typicode/json-server
 
 ```
@@ -28,4 +28,4 @@ PUT     /posts/:id {title, author, body} 更新 post
 
 1. React Router 背後的原理你猜是怎麼實作的？
 2. SDK 與 API 的差別是什麼？
-3. 在用 Ajax 的時候，預設是不會把 Cookie 帶上的，要怎麼樣才能把 Cookie 一起帶上？
+3. 在用 Ajax 的時候如果不是同源，預設是不會把 Cookie 帶上的，要怎麼樣才能把 Cookie 一起帶上？
