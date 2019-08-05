@@ -750,6 +750,11 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 （這一週預期會卡的很嚴重，如果你卡超過兩週，請果斷先放棄這週並且往下一週前進，其實這週跟之後三週比較沒有順序關係，要先跳到下一週也是可以的）
 
+指定教材：
+
+1. 程式導師實驗計畫：Lesson 14-1 之 CodeIgniter 上
+2. [CodeIgniter 使用手冊](https://codeigniter.org.tw/userguide3/)
+
 [HW21 作業連結](/homeworks/week21/be)
 
 #### 自我檢測
@@ -800,6 +805,10 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 有了之前 PHP 以及 CodeIgniter 的基礎，我相信學習 Express 會快速許多，因此在這一週裡面可以試試看能不能快速上手 Express 並完成作業。
 
+指定教材：
+
+1. [BE201] Express 與 Sequelize：「ORM 與 Sequelize」單元前所有內容
+
 [HW22 作業連結](/homeworks/week22/be)
 
 #### 自我檢測
@@ -842,6 +851,10 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 而且你幾乎不需要寫任何 SQL Query，因為 ORM 都會幫你處理的好好的，你只要學習怎麼用就可以了。這一週會使用 Sequelize 這個套件來做 ORM 以及串接資料庫，讓你體驗看看不用寫 SQL Query 的爽快感。
 
+指定教材：
+
+1. [BE201] Express 與 Sequelize：「部署：Nginx + PM2」前所有單元
+
 [HW23 作業連結](/homeworks/week23/be)
 
 #### 自我檢測
@@ -872,9 +885,14 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 ### 後端框架（四）
 
-這週會使用 Nginx + PM2 來部署我們之前寫好的 web application。
+這週會使用 Nginx + PM2 來部署我們之前寫好的 Web Application。
 
 除此之外也會簡單介紹 CI/CD。
+
+指定教材：
+
+1. [BE201] Express 與 Sequelize：「部署：Nginx + PM2」前所有單元
+2. 程式導師實驗計畫：Lesson 14-2 之 CI/CD
 
 [HW24 作業連結](/homeworks/week24/be)
 
