@@ -728,9 +728,9 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 至此，這個課程的基礎跟中階都學完了，從下週開始就要進入到前後端框架的領域。
 
-為了怕大家複習週太無聊，這次也準備了一個有趣的小測驗，這邊是一個速度很慢的網站，原因有很多種，原始碼在這裡：（待補）。
+為了怕大家複習週太無聊，這次也準備了一個有趣的小測驗，這邊是一個速度很慢的網站，原因有很多種，原始碼在這裡：https://github.com/Lidemy/lazy-hackathon。（特別感謝 @yakim-shu 同學製作這個小測驗）
 
-現在呢，你要來負責優化這個網站，在不動內容的情形下來調整，使網站的載入速度變快。這只是一個靜態網站而已，你可以 fork 到自己的 GitHub 去然後用 GitHub Page 來部署，並且使用 [WebPageTest](https://www.webpagetest.org/) 這個網站來測試你的網站速度為何。（測試地點請統一選擇 Singapore - EC2），Browser 為 Chrome。
+現在呢，你要來負責優化這個網站，在不動內容的情形下來調整，使網站的載入速度變快。這只是一個靜態網站而已，你可以 fork 到自己的 GitHub 去然後用 GitHub Page 來部署，並且使用 [WebPageTest](https://www.webpagetest.org/) 這個網站來測試你的網站速度為何。
 
 若是你沒有任何靈感，可參考 [web.dev](https://web.dev/) 或是 [Website Performance Optimization](https://www.udacity.com/course/website-performance-optimization--ud884)
 
