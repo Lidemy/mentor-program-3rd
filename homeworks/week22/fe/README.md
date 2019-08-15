@@ -8,7 +8,6 @@
 2. 美化部落格文章頁面
 3. 使用 React Router
 4. 串接 API
-5. 加入發文的功能（無須登入）
 
 API 格式：
 
@@ -16,11 +15,8 @@ endpoint：https://qootest.com
 使用說明：https://github.com/typicode/json-server
 
 ```
-POST    /posts {title, author, body} 新增 posts
 GET     /posts 取得所有 post
 GET     /posts/:id 取得某個 post
-DELETE  /posts/:id 刪除 post
-PUT     /posts/:id {title, author, body} 更新 post
 ```
 
 

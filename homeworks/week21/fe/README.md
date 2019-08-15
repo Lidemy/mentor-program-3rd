@@ -10,11 +10,11 @@
 
 ## hw3：Blog SPA
 
-請做出一個簡單的 Blog 前端頁面，就像我在影片裡面示範的那樣，一共有三個頁面：
+請做出一個簡單的 Blog SPA，一共有三個頁面：
 
-1. About
-2. 文章列表
-3. 單篇文章
+1. About：隨意顯示一些話
+2. 文章列表：可以看到所有文章
+3. 單篇文章：可以看到單篇文章內容
 
 API 的話可以用這個：https://jsonplaceholder.typicode.com/posts
 
