@@ -12,6 +12,12 @@
 
 只要你能有這個意識，就能防止大多數的攻擊；但如果沒有的話...呵呵。
 
+本週最常見的三個錯誤：
+
+1. 沒有把所有用到 SQL 的地方都改成 prepared statement
+2. 忘了防止使用者暱稱的 XSS
+3. 沒有做好權限管理，可以刪除與編輯任意文章或是仿冒身份發文
+
 以下直接來看幾個 case：
 
 ``` php
@@ -156,6 +162,11 @@ session 只是個機制，就像是投票那樣。但它本身不會規定投票
 
 session 也是一樣的，這個機制也能有很多不同的實作方式，你可以像我們一樣自己用 users_certificate 這個 table 來實作，也可以用 PHP 內建的 $_SESSION 來實作，這些都叫做 session，只是實作方法不同。
 
+更多細節可以參考 Session 與 Cookie 三部曲：
+
+1. [白話 Session 與 Cookie：從經營雜貨店開始](https://github.com/aszx87410/blog/issues/45)
+2. [淺談 Session 與 Cookie：一起來讀 RFC](https://github.com/aszx87410/blog/issues/45)
+3. [深入 Session 與 Cookie：Express、PHP 與 Rails 的實作](https://github.com/aszx87410/blog/issues/46)
 
 
 
