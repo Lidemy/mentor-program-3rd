@@ -4,7 +4,7 @@
 
 ## 網格系統
 
-可以參考這一套非常簡的 library：https://simplegrid.io/  
+可以參考這一套非常簡單的 library：https://simplegrid.io/  
 原始碼：https://github.com/zachacole/Simple-Grid
 
 基本上就是把每一行都切成 12 格（或你要切成其他數字也可以），這樣就可以讓版面隨著不同的尺寸調整一行要顯示幾格。比如我這樣寫：
@@ -24,6 +24,17 @@
 
 Bootstrap 出來之後幫了一堆沒什麼美感的工程師，但副作用就是你會發現有好多版面都好眼熟，因為都是從 Bootstrap 去改的。
 
+## Session 機制
+
+前幾週的鋪成都是為了讓你自己利用 cookie 來實作這個 session 機制，功德圓滿之後在這週就可以換成 PHP 內建的 session 機制了。PHP 內建的跟我們實作的差不多，只是 PHP 會用檔案來存 session 的內容，不像我們之前用資料庫。
+
+會用內建 session 機制之後，以後都用內建的就行了，之前只是想確保大家有理解原理。
+
+延伸閱讀：
+
+1. [白話 Session 與 Cookie：從經營雜貨店開始](https://medium.com/@hulitw/session-and-cookie-15e47ed838bc)
+2. [淺談 Session 與 Cookie：一起來讀 RFC](https://blog.huli.tw/2019/08/09/session-and-cookie-part2/)
+
 ## 把留言板改成 ajax
 
 作業裡面只讓大家做新增跟刪除是因為要做其他功能有點複雜。刪除的話我只預期大家 call api 之後把畫面上的元素刪掉，不需要考慮到分頁（因為如果你要考慮到的話，會需要把下一頁的第一筆也顯示出來）；新增也是一樣的，只要在畫面上新增元素就好，不用考慮分頁問題（例如說把最後一個拿掉，因為它會變成在第二頁）。
@@ -32,9 +43,100 @@ Bootstrap 出來之後幫了一堆沒什麼美感的工程師，但副作用就�
 
 那是因為 ajax 只是當成純文字來收資料而已，本來就不會執行什麼 script。你只要懂的 ajax 在幹嘛，這些就都不難理解。
 
-## Session 機制
+## ajax 範例
 
-前幾週的鋪成都是為了讓你自己利用 cookie 來實作這個 session 機制，功德圓滿之後在這週就可以換成 PHP 內建的 session 機制了。PHP 內建的跟我們實作的差不多，只是 PHP 會用檔案來存 session 的內容，不像我們之前用資料庫。
+底下範例改寫自：[potatokaka 同學的作業](https://github.com/Lidemy/mentor-program-3rd-potatokaka/blob/a7b9752b89687943a28dc702729e08d4bce216fa/homeworks/week13/hw3/handle_add_post.php)
 
-會用內建 session 機制之後，以後都用內建的就行了，之前只是想確保大家有理解原理。
+後端：
 
+``` php
+<?php
+  include_once('check_login.php');
+  require_once('conn.php');
+  require_once('utils.php');
+
+  // 驗證資料是否為空
+  if (!isset($_POST['content']) || empty($_POST['content'])) {
+    echo json_encode(array(
+      'result' => 'failure',
+      'message' => '資料為空'
+    ));
+    exit();
+  }
+
+  $content = $_POST['content'];
+  $parentID = $_POST['parentID'];
+  
+  $sql = "INSERT INTO potatokaka_comments(content, username, parentID) VALUES(?, ?, ?)";
+  $stmt = $conn->prepare($sql);
+  $stmt->bind_param("ssi", $content, $user, $parentID);
+
+  if (!$stmt->execute()) {
+    echo json_encode(array(
+      'result' => 'failure',
+      'message' => '新增失敗'
+    ));
+    exit();
+  }
+
+  $last_id = $stmt->insert_id;
+
+  // 去抓留言建立的時間
+  $stmt = $conn->prepare("SELECT * FROM potatokaka_comments WHERE id = ?");
+  $stmt->bind_param("i", $last_id);
+  $stmt->execute();
+  $result = $stmt->get_result();
+  $row = $result->fetch_assoc();
+  $time = $row['created_at'];
+
+  $arr = array(
+    'result' => '新增成功', 
+    'id' => $last_id, 
+    'nickname' => $nickname,
+    'time' => $time,
+  );
+  echo json_encode($arr);
+?>
+```
+
+前端：
+
+``` js
+$('.main').on('click', '.btn-add', (e) => {
+  e.preventDefault();
+  const content = $(e.target).parent().find('textarea[name="content"]').val();
+  const parentID = $(e.target).parent().find('input[name="parentID"]').val();
+  const subForm = $(e.target).closest('form');
+
+  if (content === '') {
+    alert('Please leave a comment');
+    return
+  }
+
+  $.ajax({
+    method: 'POST',
+    url: 'handle_add_post.php',
+    data: {
+      content,
+      parentID,
+    },
+  }).done((response) => {
+    $('.message #message__box').val('');
+    const msg = JSON.parse(response);
+    const {nickname, id, time} = msg;
+    alert(msg.result);
+
+    // 判斷是否為主留言
+    if (parentID === '0') {
+      $('.posts').prepend(getMainPost(nickname, content, id, time));
+    } else {
+      $('.sub-message #message__box').val('');
+      subForm.before(getSubPost(nickname, content, id, parentID, time));
+    }
+  }).fail((response) => {
+    const msg = JSON.parse(response);
+    alert(msg.result);
+  });
+});
+
+```
